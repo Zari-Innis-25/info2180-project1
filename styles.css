@@ -9,3 +9,176 @@ body {
     max-width: 960px;
     width: 100%;
 }
+
+
+
+ul{
+    list-style-type: none;
+    float: right;
+    display: flex;
+    gap: 20px;
+    margin: 0%;
+    padding: 0%;
+    
+}
+nav a{
+    color: #6b7280;
+    
+}
+nav a:hover
+{
+    color: #5A67D8;
+}
+
+.overview-hero
+{
+    background-color: #E2E8F0;
+    width: 100%;
+}
+
+.overview-hero .container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 120px;
+    padding: 70px;
+
+
+    
+}
+.overview-hero-image{
+    width: 250px;
+    height: 135px;
+    
+}
+.overview-hero-image img{
+    width: 150%;
+    height: 150%;
+}
+
+
+
+.learn-about .container{
+    padding: 35px;
+}
+.learn-about .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 35px ;
+   
+
+}
+.learn-about .card{
+    border-radius: 5px;
+    border-color: #E2E8F0;
+    box-shadow: 0 10px 5px #6b7280;
+    padding: 10px;
+
+}
+.learn-about .card img{
+    width: 195x;
+    height: 190px;
+}
+.stories img
+{
+    width: 250px;
+    height: 260px;
+    border-radius: 50%;
+}
+.testing{
+    background-color: #4A5568;
+    width: 100%;
+}
+
+
+.testing .container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    text-align: left;
+    padding: 40px;
+    color: #fff;
+}
+.cta a{
+    background-color: #48BB78;
+    padding: 20px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.cta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.stories .container article
+{
+    display:grid;
+    grid-template-columns: 1fr 2fr ;
+    gap: 20px;
+    align-items: center;
+    padding: 30px;
+}
+.newsletter .container 
+{
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+}
+form{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    font-size: 18px;
+}
+header{ 
+    background-color: #fff;
+    background-size:auto;
+    font-size: 18px;
+    padding: 60px;
+
+}
+h2{
+    font-size: 24px;
+    color: #48BB78;
+}
+
+.learn-about h3{
+    color: #48BB78;
+    font-size: 21px;
+}
+
+.stories h2{
+    color: #5A67D8;
+}
+.stories a{
+    color: #5A67D8;
+}
+.stories h3{
+    font-size: 18px;
+}
+.newsletter{
+    background-color: #48BB78;
+    width: 100%;
+    padding: 40px;
+}
+button{
+    background-color: #5A67D8;
+    padding: 20px;
+}
+footer{
+    background-color: #4A5568;
+    color: #fff;
+    padding: 15px;
+}
+input{
+    padding: 20px;
+}
